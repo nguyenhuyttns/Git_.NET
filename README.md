@@ -1,2 +1,2 @@
 # Git_.NET
-xin chao cac ban
+nguyen duc huy dep trai ne 
