@@ -1,0 +1,31 @@
+﻿<Window x:Class="VD2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VD2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu x:Name="menu1" HorizontalAlignment="Left" Height="41" VerticalAlignment="Top" Width="790">
+            <MenuItem x:Name="Menu1" Header="Thuc don_1" AutomationProperties.Name="Menu1">
+                <MenuItem Header="_Coppy" ToolTip="Coppy van ban"/>
+                <MenuItem Header="_Cut" ToolTip="Cut van ban"/>
+                <MenuItem Header="_Paste" ToolTip="Paste van ban"/>
+            </MenuItem>
+            <MenuItem x:Name="Menu2" Header="Thuc don_2">
+                <MenuItem Header="Thucdon21">
+                    <MenuItem Header="Thucdon211" />
+                    <MenuItem Header="Thucdon212" />
+                </MenuItem>
+                <MenuItem Header="Thucdon22"/>
+                <MenuItem Header="Thucdon23" IsCheckable="True"/>
+            </MenuItem>
+            <MenuItem x:Name="Menu3" Header="Thuc don_3">
+                <MenuItem Header="MenuItem31"/>
+                <MenuItem Header="MenuItem32"/>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>
