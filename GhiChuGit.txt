@@ -1,0 +1,7 @@
+-Khi day file tu local len:
+git add .
+git commit -m "Mô tả về những thay đổi đã thực hiện"
+git push origin main
+
+-khi tai ve local
+git pull
